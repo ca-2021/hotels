@@ -22,9 +22,9 @@ class Review
     private $id;
 
     /**
-     * @var bool
+     * @var int
      *
-     * @ORM\Column(name="score", type="boolean", nullable=false)
+     * @ORM\Column(name="score", type="integer", nullable=false)
      */
     private $score;
 
